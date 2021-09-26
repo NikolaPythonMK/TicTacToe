@@ -12,7 +12,7 @@ body{
     grid-template-rows: 80% 20%;
     height: 100vh;
     width: 100vw;
-    overflow:scroll;
+    overflow:hidden;
 }
 
 .score-content{
@@ -59,6 +59,10 @@ body{
 
 @media (max-width: 900px)
 {
+    .wrapper{
+        grid-template-rows: 80% 20%;
+    }
+
     .game-container{
         width: 80%;
         height: 70%;
@@ -71,6 +75,7 @@ body{
 
     .score-content{
         font-size: 1em;
+        align-self:flex-start;
     }
 
     .cell{

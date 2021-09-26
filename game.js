@@ -24,6 +24,9 @@ for(let i = 0; i < cells.length; i++)
 {
     cells[i].addEventListener("click", function()
     {
+        if(cells[i].textContent !== ""){
+            return;
+        }
         clearAnimations();
         playerMakesMove(cells[i]);
         if(waiting === false && !isDraw()){
@@ -35,6 +38,7 @@ for(let i = 0; i < cells.length; i++)
 
 function playerMakesMove(cell)
 {
+    
     cell.textContent = "✕";
     if(player.checkWin(cells))
     {
