@@ -5,6 +5,7 @@
 
 body{
     background-color: #000;
+    overflow: hidden;
 }
 
 .wrapper{
@@ -12,7 +13,7 @@ body{
     grid-template-rows: 80% 20%;
     height: 100vh;
     width: 100vw;
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .score-content{
@@ -69,7 +70,7 @@ body{
     }
 
     .scores{
-        font-size: 1em;
+        font-size: 1.2em;
         width: 80vw;
     }
 
