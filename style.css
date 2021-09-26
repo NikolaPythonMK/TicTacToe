@@ -64,7 +64,6 @@ body{
     }
 
     .game-container{
-        align-self: flex-start;
         width: 80%;
         height: 70%;
     }
