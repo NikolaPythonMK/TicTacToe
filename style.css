@@ -21,18 +21,21 @@ body{
     font-size: 1.2em;
     justify-self: center;
     align-self: center;
+    overflow: hidden;
 }
 
 .label{
     display: flex;
     justify-content: space-between;
     width: 20em;
+    overflow: hidden;
 }
 
 .scores{
     display: flex;
     justify-content: space-around;
     font-size: 2em;
+    overflow: hidden;
 }
 
 .game-container{
@@ -46,6 +49,7 @@ body{
 
     justify-self: center;
     align-self: center;
+    overflow: hidden;
 }
 
 .cell{
@@ -70,7 +74,7 @@ body{
     }
 
     .scores{
-        font-size: 1.2em;
+        font-size: 1.3em;
         width: 80vw;
     }
 
