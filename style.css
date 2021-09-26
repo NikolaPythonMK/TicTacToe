@@ -66,7 +66,7 @@ body{
 {
     .wrapper{
         height: 90vh;
-        grid-template-rows: 75% 25%;
+        grid-template-rows: 80% 20%;
     }
 
     .game-container{
