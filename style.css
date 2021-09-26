@@ -60,7 +60,7 @@ body{
 @media (max-width: 900px)
 {
     .wrapper{
-        grid-template-rows: 80% 20%;
+        grid-template-rows: 75% 25%;
     }
 
     .game-container{
