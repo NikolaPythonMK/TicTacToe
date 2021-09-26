@@ -68,4 +68,8 @@ body{
         font-size: 1.5em;
         width: 80vw;
     }
+
+    .score-content{
+        font-size: 1em;
+    }
 }
