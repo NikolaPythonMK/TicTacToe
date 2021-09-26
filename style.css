@@ -72,4 +72,8 @@ body{
     .score-content{
         font-size: 1em;
     }
+
+    .cell{
+        font-size: 5.5;
+    }
 }
